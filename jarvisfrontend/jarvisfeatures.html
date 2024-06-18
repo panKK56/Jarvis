@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Voice Assistant Features</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  /* background-color: #000; */
+  color: #fff;
+  
+}
+
+header {
+  background: linear-gradient(to right, #ff0077, #6600ff); /* Gradient background */
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Unique font */
+  animation: scaleHeader 0.5s ease-in-out forwards;
+}
+
+@keyframes scaleHeader {
+  from { height: 100px; }
+  to { height: 50px; }
+}
+
+header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.feature {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #4CAF50; /* Green color */
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  background-color: #FFC107; /* Yellow color on hover */
+}
+
+.feature h2 {
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 16px;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Robotics Design */
+.robotics-background {
+  background-image: url(roboticsbackgroundvertical.jpg);
+  background-size: cover;
+}
+
+.robotics-icon {
+  width: 50px;
+  height: 50px;
+  background-image: url(robotpng.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+</style>
+</head>
+<body class="robotics-background">
+<header>
+  <h1>Voice Assistant Features</h1>
+</header>
+<main>
+  <section id="powerpoint" class="feature" onclick="toggleFeature(this)">
+    <div class="robotics-icon"></div>
+    <h2>Make PowerPoint Presentation</h2>
+    <p>Create and customize presentations with ease.</p>
+  </section>
+  <section id="whatsapp" class="feature" onclick="toggleFeature(this)">
+    <div class="robotics-icon"></div>
+    <h2>Send Text Messages on WhatsApp</h2>
+    <p>Stay connected and send messages seamlessly.</p>
+  </section>
+  <section id="music" class="feature" onclick="toggleFeature(this)">
+    <div class="robotics-icon"></div>
+    <h2>Play Music</h2>
+    <p>Enjoy your favorite tunes with ease.</p>
+  </section>
+  <section id="queries" class="feature" onclick="toggleFeature(this)">
+    <div class="robotics-icon"></div>
+    <h2>Solve Your Queries</h2>
+    <p>Get answers and solutions to your questions.</p>
+  </section>
+  <section id="automation" class="feature" onclick="toggleFeature(this)">
+    <div class="robotics-icon"></div>
+    <h2>Automate Web Application</h2>
+    <p>Streamline tasks and processes on the web.</p>
+  </section>
+  <section id="visualization" class="feature" onclick="toggleFeature(this)">
+    <div class="robotics-icon"></div>
+    <h2>Perform Data Visualization</h2>
+    <p>Visualize data to gain insights and understand trends.</p>
+  </section>
+  <section id="codes" class="feature" onclick="toggleFeature(this)">
+    <div class="robotics-icon"></div>
+    <h2>Provide Codes Regarding Topics</h2>
+    <p>Access code snippets and examples for various topics.</p>
+  </section>
+  <section id="applications" class="feature" onclick="toggleFeature(this)">
+    <div class="robotics-icon"></div>
+    <h2>Open Applications on Desktop</h2>
+    <p>Launch applications and software with voice commands.</p>
+  </section>
+  <section id="readdata" class="feature" onclick="toggleFeature(this)">
+    <div class="robotics-icon"></div>
+    <h2>Read Selected Data</h2>
+    <p>Get data read aloud for better understanding and accessibility.</p>
+  </section>
+  <section id="createfolder" class="feature" onclick="toggleFeature(this)">
+    <div class="robotics-icon"></div>
+    <h2>Create a Folder</h2>
+    <p>Create folders in any directory with voice commands.</p>
+  </section>
+</main>
+<footer class="footer">
+  <p>&copy; 2024 Voice Assistant Inc. | All rights reserved</p>
+</footer>
+<script>
+function toggleFeature(element) {
+  element.classList.toggle('active');
+}
+</script>
+</body>
+</html>

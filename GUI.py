@@ -1,0 +1,6 @@
+MASTER="Sir"
+AINAME="JARVIS"
+USERNAME="panKK"
+WAKE="n"
+TALKING=False
+SHOW=False

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "C:\Jarvis\temp.py", line 4, in <module>
+    webbrowser.get('chrome').open_new_tab('https://www.google.com')
+  File "C:\Users\panka\AppData\Local\Programs\Python\Python310\lib\webbrowser.py", line 65, in get
+    raise Error("could not locate runnable browser")
+webbrowser.Error: could not locate runnable browser

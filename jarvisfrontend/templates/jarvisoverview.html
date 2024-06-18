@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Activated Personal Assistant</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+            overflow-x: hidden;
+            
+        }
+
+        header {
+            background-color: #1a1a1a;
+            padding: 10px 0;
+            text-align: center;
+            border-bottom: 2px solid aqua;
+        }
+
+        h1 {
+            font-size: 48px;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+            color: aqua;
+            text-shadow: 5px 2px 8px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: aqua;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            background-color: #1f1f1f;
+            margin-bottom: 40px;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+            position: relative;
+            overflow: hidden;
+        }
+
+        h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: aqua;
+            position: relative;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #ccc;
+        }
+
+        footer {
+            background-color: #1a1a1a;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .robot-pattern {
+            position: absolute;
+            top: -50px;
+            left: -50px;
+            width: 200px;
+            z-index: -1;
+        }
+
+        .robot-pattern img {
+            width: 100%;
+            transform: rotate(45deg);
+        }
+
+        .pattern1 {
+            background-color: aqua;
+            clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 50%);
+        }
+
+        .pattern2 {
+            background-color: aqua;
+            clip-path: polygon(0% 100%, 100% 50%, 100% 100%, 0% 100%);
+        }
+
+        @media screen and (max-width: 768px) {
+            h1 {
+                font-size: 36px;
+            }
+
+            nav ul li a {
+                font-size: 16px;
+            }
+
+            h2 {
+                font-size: 28px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .robot-pattern {
+                top: -20px;
+                left: -20px;
+                width: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Desktop Virtual Assistant</h1>
+        
+        <nav>
+            <ul>
+                <li><a href="/introduction">Introduction</a></li>
+                <li><a href="/literature-review">Literature Review</a></li>
+                <li><a href="/real-life-application">Real Life Application</a></li>
+                <li><a href="/Methodology">Methodology</a></li>
+                <li><a href="/conclusion">Conclusion</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>Our digital life is decided by innovations. Especially in recent years, more innovative technologies were developed to ease our professional lifestyle. An intelligent Personal Assistant is proved to be the most vital innovation in terms of easing our lives and providing a hands-free experience. We are building a PC Personal Assistant that works on voice commands and executes the user query. It does not exist that a person's learns to speak with a system, however currently a computer system learns to speak with a person, looking and traversing their actions, habits, behavior, or nature and creating efforts to become his customized assistant.
+
+              Speech recognition is a topic that’s extremely useful in many applications and environments in our everyday life.
+              
+              This system is designed to be used efficiently on desktops. Personal assistant software improves user productivity by managing routine tasks of the user and by providing information from online sources to the user. JARVIS is effortless to use. Call the wake word ‘JARVIS’ followed by the command. Voice searches have dominated over text search. Web searches conducted via mobile devices have only just overtaken those carried out using a computer and allow your intelligent assistant to make email work for you. Detect intent, pick out important information, automate processes, and deliver personalized responses. This project was started on the premise that there is enough openly available data and information on the web that can be utilized to build a virtual assistant that has access to making intelligent decisions for routine user activities. Speech Recognition library is employed to perform speech to text conversion, Wikipedia library is employed to urge information from Wikipedia, pyttsx3 library is employed to perform the text to speech, etc. All the tasks are within the textual form which is then converted into an audio signal. A Text-to speech Engine converts the text into phonemic representation, and then it converts the phonemic representation to waveforms which will be output.</p>
+        </section>
+        <section id="literature-review">
+            <h2>Literature Review</h2>
+            <p>Intelligent Personal Assistants (IPA) area unit enforced and utilized in operative Systems, net of Things (IOT), and a spread of different systems. Several implementations of IPAs exist these days and corporations like Apple, Google and Microsoft all have their implementations as a serious feature in their operating systems and devices. With the employment of linguistic communication process (NLP), Machine Learning (ML), Artificial Intelligence (AI), and prediction models from these held in applied science (CS), further as theory and techniques from Human-Computer Interaction (HCI), IPAs are getting a lot of intelli-gent and relevant.
+
+              This paper aims to analyze and compare the present major implementations of IPAs so as to work out that implementation is the most developed at this moment in time and is causative to the property way forward for AI. Jarvis could be a system designed to reply to user issued commands to supply convenient management over variety of electronic devices. These devices may be lights, TV's, radios, stereos, etc. The system is going to be designed to figure best among a moderate home with the convenience of a wireless router. The system can take a voice input from a user, match that input to Associate in Nursing acceptable command among its library of recognized commands or reject the command if it isn't recognized by the system Associate in Nursing transmit an acceptable message via a router.
+              
+              The router can then send the operation to the right device therefore the operation may be performed [2]. Assisting users in their tasks is that the main ACORS goal of today’s personal assistant applications. several such applications square measure being developed, that square measure capable to find the user’s habits, abilities, preferences, and goals, even a lot of accurately and predicting the user’s actions prior to and perform them while not user’s interaction. The assistant agent needs to unceasingly improve its behavior supported previous experiences. enhancements square measure achieved in personal assistant applications by learning mechanism. Agents square measure capable of accessing data from databases to guide individuals through completely different tasks, deploying a learning mechanism to accumulate new data on user behavior. Additionally, the resources need to be used in an extremely economical manner resulting in less power consumption. During this paper we’ve planned a machine learning approach for learning mechanism of non-public assistant agent.
+              
+              </p>
+        </section>
+        <section id="real-life-application">
+            <h2>Real Life Application</h2>
+            <p><b>Saves Time:</b> JARVIS is a desktop voice assistant which works on the voice command offered to it, it can do voice searching, voice-activated device control and can let us complete a set of tasks. <br>
+              <b>Conversational Interaction:</b> It makes it easier to complete any task as it automatically does it by using the essential module or libraries of Python, in a conversational interaction way. Hence any user when instruct any task to it, they feel like giving task to a human assistant because of the conversational interaction for giving input and getting the desired output in the form of task done.2 <br>
+              <b>Reactive Nature:</b> The desktop assistant is reactive which means it know human language very well and understand the context that is provided by the user and gives response in the same way, i.e., human understandable language, English. So, the user finds its reaction in an informed and smart way. <br>
+              <b>Multitasking:</b> The main application of it can be its multitasking ability. It can ask for continuous instructions one after other until the user “QUIT” it. <br>
+              <b>No Trigger Phase:</b> It asks for the instruction and listens to the response that is given by user without needing any trigger phase and then only executes the task.</p>
+        </section>
+        <section id="methodology">
+            <h2>Methodology</h2>
+            <p>We have got a bent to shape our application able to the utilization of gadget voice with the assistance of sapi5 and pyttsx3. Pyttsx3 can also be a text-to-speech conversion library in Python. Now, like distinctive libraries, it works offline and is similar temperament with each Python 2 and three. The Speech Application Programming Interface or SAPI is a diploma API evolved through Microsoft to permit the usage of speech popularity and speech synthesis inside Windows applications. Then we have got a bent to stipulate the talk function to differ this technique to talk the outputs. At that time, we're visiting outline a characteristic to want voice instructions the utilization of the gadget microphone. The foremost function is then made public during which all the competencies of this technique rectangular degree are made public.</p>
+        </section>
+        <section id="conclusion">
+            <h2>Conclusion</h2>
+            <p>In this paper we have discussed a Voice Activated Personal Assistant developed using python. This assistant currently works online and performs basic tasks like weather updates, stream music, search Wikipedia, open desktop applications, etc. The functionality of the current system is limited to working online only. The upcoming updates of this assistant will have machine learning incorporated in the system which will result in better suggestions with IoT to control the nearby devices similar to what Amazon’s Alexa does.</p>
+        </section>
+    </main>
+    <!-- <footer>
+        <p>&copy; 2024 Your Name</p>
+    </footer> -->
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Voice Assistant</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(to bottom, #4CAF50, #008CBA); /* Background gradient */
+        color: #fff;
+        text-align: center;
+    }
+
+    #video-background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        min-height: 100%;
+        z-index: -1;
+    }
+
+    .content {
+        padding: 50px;
+    }
+
+    h1 {
+        font-size: 3em;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 1.5em;
+        margin-bottom: 30px;
+    }
+
+    .features {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+
+    .feature {
+        width: 30%;
+        padding: 20px;
+        margin-bottom: 20px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+    }
+
+    .feature h2 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    .feature p {
+        font-size: 1.2em;
+    }
+</style>
+</head>
+<body>
+<video autoplay muted loop id="video-background">
+    <source src="backgroundvideo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+<div class="content">
+    <h1>Welcome to My Voice Assistant</h1>
+    <p>I developed this voice assistant using Python's Speech Recognition API. It can perform various tasks with voice commands such as sending emails, searching on Google, playing music, opening applications, automating tasks, and providing AI insights.</p>
+
+    <p>As we know Python is an emerging language so it becomes easy to write a script for Voice Assistant in Python. The instructions for the assistant can be handled as per the requirement of user. Speech recognition is the process of converting speech into text. This is commonly used in voice assistants like Alexa, Siri, etc. In Python there is an API called Speech Recognition which allows us to convert speech into text. It was an interesting task to make my own assistant. It became easier to send emails without typing any word, Searching on Google without opening the browser, and performing many other daily tasks like playing music, opening your favorite IDE with the help of a single voice command. In the current scenario, advancement in technologies are such that they can perform any task with same effectiveness or can say more effectively than us. I realized that the concept of AI in every field is decreasing human effort and saving time.</p>
+    
+</div>
+</body>
+</html>
